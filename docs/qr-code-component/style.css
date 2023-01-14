@@ -18,16 +18,55 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 Styles from style guide set in variables for use throughout the CSS.
 */
 :root {
+    /* widths for various device sizes */
     --mobile-width: 375px;
     --desktop-width: 1440px;
 
+    /* colors per style guide */
     --white: hsl(0, 0%, 100%);
     --light: hsl(212, 45%, 89%);
     --greyish: hsl(220, 15%, 55%);
-    --dark: hsl(218, 44%, 22%)
+    --dark: hsl(218, 44%, 22%);
+
+    font-size: 15px; /* per style guide */
 }
 
 body {
-    font-size: 15px; /* per style guide */
+    
     font-family: 'Outfit', sans-serif;
+    background: var(--light);
+}
+
+.qr-code {
+    /* 
+    using rem (relative units) will set the font to a percentage
+    of the font size set on the root element.
+    .8rem sets the font size to 80% of the 15px set 
+    on the root element
+    */
+    font-size: .8rem; 
+    width: calc(var(--mobile-width) - 80px); /* guide linked in README */
+    border: 1px solid var(--light);
+    margin: 70px auto;
+    background: var(--white);
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.qr-code-image {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.qr-code-title {
+    text-align: center;
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.qr-code-instructions {
+    text-align: center;
+    font-weight: 400;
+    color: var(--greyish);
+    font-size: 1.1rem;
 }

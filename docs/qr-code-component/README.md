@@ -19,11 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/P1xt/week3-frontend-speedrun-p1xt/tree/main/docs/qr-code-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -38,22 +38,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [x] - Read [the style guide](./style-guide.md)
 - [x] - Created [style.css](./style.css), linked to it in the HTML, and added variables to it for each of the styles described in the style guide.
 - [x] - Added semantic markup to the HTML to break the content into proper elements
-- [] - Created CSS classes to style the page for mobile
-- [] - Tested the page for mobile
-- [] - Checked the page for tablet and laptop widths to identify any styles that need to change for screens larger than mobile. No changes were necessary.
-- [] - Screenshot the finished project and added the image to this README
-- [] - Published the project to GitHub Pages
+- [x] - Created CSS classes to style the page for mobile
+- [x] - Tested the page for mobile
+- [x] - Checked the page for tablet and laptop widths to identify any styles that need to change for screens larger than mobile. No changes were necessary.
+- [x] - Screenshot the finished project and added the image to this README
+- [x] - Published the project to GitHub Pages
 
 ### Continued development
 
 This project didn't require flexbox or CSS grid. I look forward to using them in future projects when it makes sense to do so.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties ) - This helped me simplify the solution by putting all the design mandated selections into variables that I could use throughout the CSS. This sets everything up so that if a design choice is changed later, I'll only need to reset the custom property in :root instead of throughout the CSS.
+- [CSS Calc()](https://css-tricks.com/a-complete-guide-to-calc-in-css/) - Useful guide for using `calc()` in CSS to compute a value, such as a width, relative to some other value (I used it to set the width of the component to the mobile width minus a margin, so that there would be some space on either side of the component when viewed on mobile)
+- [Relative units](https://snook.ca/archives/html_and_css/font-size-with-rem) - by using REM units for font sizes I resized the various text based on a percentage of the font size used in the body element.
 
 
 
