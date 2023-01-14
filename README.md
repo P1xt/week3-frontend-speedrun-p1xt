@@ -1,4 +1,5 @@
 # Week 3 Frontend Speedrun
+[Live Site](https://p1xt.github.io/week3-frontend-speedrun-p1xt/index.html)
 
 ## Stage 1 - HTML & CSS - less complex layouts
 - [x] - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
