@@ -37,7 +37,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Steps I took (Currently - plan of steps I plan to take to complete the project)
 - [x] - Read [the style guide](./style-guide.md)
 - [x] - Created [style.css](./style.css), linked to it in the HTML, and added variables to it for each of the styles described in the style guide.
-- [] - Added semantic markup to the HTML to break the content into proper elements
+- [x] - Added semantic markup to the HTML to break the content into proper elements
 - [] - Created CSS classes to style the page for mobile
 - [] - Tested the page for mobile
 - [] - Checked the page for tablet and laptop widths to identify any styles that need to change for screens larger than mobile. No changes were necessary.
