@@ -47,7 +47,7 @@ body {
     font-size: .8rem; 
     width: calc(var(--mobile-width) - 80px); /* guide linked in README */
     border: 1px solid var(--light);
-    margin: 70px auto;
+    margin: 140px auto;
     background: var(--white);
     border-radius: 5%;
     padding: 20px;
