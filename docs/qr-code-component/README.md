@@ -35,14 +35,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### Steps I took (Currently - plan of steps I plan to take to complete the project)
-1. Read [the style guide](./style-guide.md)
-2. Created [style.css](./style.css), linked to it in the HTML, and added variables to it for each of the styles described in the style guide.
-3. Added semantic markup to the HTML to break the content into proper elements
-4. Created CSS classes to style the page for mobile
-5. Tested the page for mobile
-6. Checked the page for tablet and laptop widths to identify any styles that need to change for screens larger than mobile. No changes were necessary.
-7. Screenshot the finished project and added the image to this README
-8. Published the project to GitHub Pages
+- [x] - Read [the style guide](./style-guide.md)
+- [x] - Created [style.css](./style.css), linked to it in the HTML, and added variables to it for each of the styles described in the style guide.
+- [] - Added semantic markup to the HTML to break the content into proper elements
+- [] - Created CSS classes to style the page for mobile
+- [] - Tested the page for mobile
+- [] - Checked the page for tablet and laptop widths to identify any styles that need to change for screens larger than mobile. No changes were necessary.
+- [] - Screenshot the finished project and added the image to this README
+- [] - Published the project to GitHub Pages
 
 ### Continued development
 

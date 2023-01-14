@@ -1,0 +1,33 @@
+/*
+Import the fonts required by the style guide
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* 
+CSS custom properties set in :root become usable throughout the rest
+of the CSS and can be used in any css rule using the following syntax:
+
+To setup the variable:
+--main-color: blue;
+
+To use the variable:
+color: var(--main-color);
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties 
+
+Styles from style guide set in variables for use throughout the CSS.
+*/
+:root {
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    --white: hsl(0, 0%, 100%);
+    --light: hsl(212, 45%, 89%);
+    --greyish: hsl(220, 15%, 55%);
+    --dark: hsl(218, 44%, 22%)
+}
+
+body {
+    font-size: 15px; /* per style guide */
+    font-family: 'Outfit', sans-serif;
+}
